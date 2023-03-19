@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ol, ul {
+    padding-left: 0rem;
+}
+
+/* TEXT */
+
+body {
+    font-family: 'Playfair Display', serif;    
+}
+
+.txt-ctr {
+    text-align: center;
+}
+
+.txt-med {
+    font-size: medium;
+}
+/* HEADER */
+
+.header-mobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 18%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.header-icons {
+    font-size: 24px;
+}
