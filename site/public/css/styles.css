@@ -21,19 +21,81 @@ body {
 .txt-med {
     font-size: medium;
 }
+
+/* PADDING */
+
+.pad-lft-5 {
+    padding-left: 5%;
+}
+/* Margin */
+
+.mrg-rgt {
+    padding-right: 15%;
+}
+.mrg-top {
+    margin-top: 10%;
+}
+.mg-top1 {
+    margin-top: 1%;
+}
+.mg-bot1 {
+    margin-bottom: 1%;
+}
+
+/* DISPLAY */
+
+.flex {
+    display: flex;
+}
+
+/* SIZING */
+
+.wd-100 {
+    width: 100%;
+}
+
 /* HEADER */
 
-.header-mobile {
+.header-mobile { 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .logo {
-    width: 18%;
+    width: 60%;
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
-.header-icons {
-    font-size: 24px;
+.hamb {
+    padding: 0px;
+    border: transparent;
+}
+
+/* OFFCANVAS */
+
+.offcanvas {
+    background-color: #F4F9FA;
+    
+}
+.offcanvas-body {
+    padding-left: 0px ;
+    padding-right: 0px;
+}
+.offcanvas.offcanvas-start{
+    width: 80%;
+}
+
+.btn-canv {
+    position: fixed;    
+    right: 0;   
+ }
+.btn-bord {
+    background-color: #9DD6DF;
+}
+.navbar-toggler:focus {
+    box-shadow:none !important
+}
+.navbar {
+    padding: 0 !important;
 }
