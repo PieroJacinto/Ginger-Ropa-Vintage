@@ -94,13 +94,14 @@ body {
     background-color: #F7E2D6 !important;
     border: none !important;
 }
-
+.user-icon {
+    padding-right:5%
+}
 
 /* OFFCANVAS */
 
 .offcanvas {
-    background-color: #F4F9FA;
-    
+    background-color: #F4F9FA;    
 }
 .offcanvas-body {
     padding-left: 0px ;
