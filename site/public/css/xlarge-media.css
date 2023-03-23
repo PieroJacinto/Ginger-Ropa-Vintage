@@ -2,7 +2,7 @@
     /* HEADER */
 
     .logo {
-        width: 45%;       
+        width: 55%;       
     }
     .header-txt {
         font-size: large;    
@@ -11,6 +11,7 @@
         font-size: 30px;
         padding-right: 8%;
     }
+    
 
     /* FOOTER */
     .footer-titles {

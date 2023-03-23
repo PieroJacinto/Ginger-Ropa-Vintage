@@ -6,42 +6,49 @@
             </a> 
 
             <!-- MENU DE MEDIUM MEDIA PARA ARRIBA -->
-
-            <div class="row container d-none d-md-flex justify-content-around px-0">
-                <div class="col-3 text-center">
-                    <a href="" class="header-txt ancor">Categorias</a>    
-                </div>
-                <div class="col-3 text-center">
-                    <a href="" class="header-txt ancor">Realizaciones</a>    
-                </div>
-                <div class="col-3 text-center">
-                    <a href="" class="header-txt ancor">Amigxs</a>    
-                </div>
-                <div class="col-3 text-center">
-                    <a href="" class="header-txt ancor">Nosotrxs</a>    
-                </div>
-
-            </div>                          
+        
+            <div class="col-md-5 d-none d-md-flex">
+                <ul class="ps-5 header-list list-group list-group-horizontal">
+                    <li class="list-group-item"><a href="" class="header-txt ancor">Categorias</a></li>
+                    <li class="list-group-item"><a href="" class="header-txt ancor">Realizaciones</a></li>
+                    <li class="list-group-item"><a href="" class="header-txt ancor">Amigxs</a></li>
+                    <li class="list-group-item"><a href="" class="header-txt ancor">Nosotrxs</a></li>
+                  </ul>
+            </div>
         </div> 
 
-        <!-- LOGO Y PARTE DERECHA DEL HEADER -->       
-        
-
+        <!-- LOGO Y PARTE DERECHA DEL HEADER -->     
+       
         <div class="col-4 col-md-2 text-center">
             <img src="/images/GRV-logo.png" alt="imagen logo" class="logo"> 
         </div>
-        <div class="col-4 col-md-5 text-end ">
+        <div class="col-4 col-md-5 text-end header-right ">
             <a href="" class="ancor">
                 <i class="d-none d-md-inline text-right fa-regular fa-circle-user header-icons"></i>
             </a>
-            <a href="" class="ancor">
-                <i class="d-none d-md-inline fa-solid fa-magnifying-glass header-icons"></i></i> 
+            <!-- Button trigger modal -->
+            <a href="" class="d-none d-md-inline ancor" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="d-none d-md-inline fa-solid fa-magnifying-glass header-icons"></i>
             </a>
             <a href="" class="ancor">
                 <i class="text-right fa-solid fa-bag-shopping header-icons shop-ico"></i> 
             </a>          
         </div>
+    </div>  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">        
+        <div class="modal-body">
+            <form class="d-flex" role="search">
+                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-bord" type="submit"><i class="fa-solid fa-regular fa-magnifying-glass"></i></button>
+            </form> 
+        </div>       
+      </div>
     </div>
+  </div>
     
     <!-- en mobile offcanvas del hamburguer -->
 

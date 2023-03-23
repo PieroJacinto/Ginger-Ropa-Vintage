@@ -85,6 +85,17 @@ body {
     font-size: x-small;    
 }
 
+.header-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-group-item {
+    background-color: #F7E2D6 !important;
+    border: none !important;
+}
+
+
 /* OFFCANVAS */
 
 .offcanvas {
