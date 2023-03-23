@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+    /* HEADER */
+    .logo {
+        width: 60%;       
+    }
+    .header-txt {
+        font-size: small;    
+    }
+   
+ }

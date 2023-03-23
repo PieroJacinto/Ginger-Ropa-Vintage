@@ -1,50 +1,80 @@
-<header>
-        <div class="container-fluid align-items-center justify-content-between rosa header-mobile ">
-                                       
-                <a class="btn hamb" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                        <i class="fa-solid fa-bars header-icons"></i>
-                </a>
-                <!-- OFFCANVAS -->
+<div class="container-fluid flex-wrap rosa ">
+    <div class="row d-flex align-items-center">
+        <div class="col-4 col-md-5">
+            <a class="btn hamb d-md-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <i class="fa-solid fa-bars header-icons"></i>
+            </a> 
 
-                <div class="offcanvas offcanvas-start navbar-toggler" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                  <button  type="button" class="btn-close btn-canv mfp-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                  <div class="offcanvas-header">
-                          <form class="d-flex" role="search">
-                            <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-bord" type="submit"><i class="fa-solid fa-regular fa-magnifying-glass"></i></button>
-                          </form> 
-                        </div>
-                        <div class="offcanvas-body">
-                          <div>
-                                <ul class="navbar-nav">
-                                        <li class="pad-lft-5 nav-item">
-                                          <a class="nav-link active" aria-current="page" href="/">Categorias</a>
-                                        </li>
-                                        <hr class="mg-top1 mg-bot1">
-                                        <li class="pad-lft-5 nav-item">
-                                          <a class="nav-link" href="#">Realizaciones</a>
-                                        </li>
-                                        <hr class="mg-top1 mg-bot1">
-                                        <li class="pad-lft-5 nav-item">
-                                          <a class="nav-link" href="#">Amigxs </a>
-                                        </li>
-                                        <hr class="mg-top1 mg-bot1">
-                                        <li class="pad-lft-5 nav-item">
-                                          <a class="nav-link">Nosotrxs</a>
-                                        </li>
-                                        <hr class="mg-top1 mg-bot1">
-                                      </ul>
-                          </div>                         
-                        </div>
+            <!-- MENU DE MEDIUM MEDIA PARA ARRIBA -->
+
+            <div class="row container d-none d-md-flex justify-content-around px-0">
+                <div class="col-3 text-center">
+                    <a href="" class="header-txt ancor">Categorias</a>    
+                </div>
+                <div class="col-3 text-center">
+                    <a href="" class="header-txt ancor">Realizaciones</a>    
+                </div>
+                <div class="col-3 text-center">
+                    <a href="" class="header-txt ancor">Amigxs</a>    
+                </div>
+                <div class="col-3 text-center">
+                    <a href="" class="header-txt ancor">Nosotrxs</a>    
                 </div>
 
-                                      
+            </div>                          
+        </div> 
+
+        <!-- LOGO Y PARTE DERECHA DEL HEADER -->       
         
-        
-                <img src="/images/GRV-logo.png" alt="imagen logo" class="logo">          
-        
-        
-                <i class="fa-solid fa-bag-shopping header-icons "></i>                    
-                     
+
+        <div class="col-4 col-md-2 text-center">
+            <img src="/images/GRV-logo.png" alt="imagen logo" class="logo"> 
         </div>
-</header>
+        <div class="col-4 col-md-5 text-end ">
+            <a href="" class="ancor">
+                <i class="d-none d-md-inline text-right fa-regular fa-circle-user header-icons"></i>
+            </a>
+            <a href="" class="ancor">
+                <i class="d-none d-md-inline fa-solid fa-magnifying-glass header-icons"></i></i> 
+            </a>
+            <a href="" class="ancor">
+                <i class="text-right fa-solid fa-bag-shopping header-icons shop-ico"></i> 
+            </a>          
+        </div>
+    </div>
+    
+    <!-- en mobile offcanvas del hamburguer -->
+
+    <div class="offcanvas offcanvas-start navbar-toggler" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <button  type="button" class="btn-close btn-canv header-logo" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div class="offcanvas-header">
+            <form class="d-flex" role="search">
+                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-bord" type="submit"><i class="fa-solid fa-regular fa-magnifying-glass"></i></button>
+            </form> 
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <ul class="navbar-nav me-auto">
+                    <li class="pad-lft-5 nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Categorias</a>
+                    </li>
+                    <hr class="mg-top1 mg-bot1">
+                    <li class="pad-lft-5 nav-item">
+                        <a class="nav-link" href="#">Realizaciones</a>
+                    </li>
+                    <hr class="mg-top1 mg-bot1">
+                    <li class="pad-lft-5 nav-item">
+                        <a class="nav-link" href="#">Amigxs </a>
+                    </li>
+                    <hr class="mg-top1 mg-bot1">
+                    <li class="pad-lft-5 nav-item">
+                        <a class="nav-link">Nosotrxs</a>
+                    </li>
+                        <hr class="mg-top1 mg-bot1">
+                    </ul>
+                </div>                         
+            </div>
+        </div>
+    </div>
+</div>
