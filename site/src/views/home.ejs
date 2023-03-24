@@ -13,6 +13,7 @@
     <main>
         <!-- BANNER -->
         <div class="container-fluid txt-ctr mt-4">
+            <!-- Este banner es de mobile -->
             <div class="row">
                 <div class="col d-md-none">
                     <a href="/" class="ancor">
@@ -22,7 +23,8 @@
                             class="w-100">
                     </a>
                 </div>
-                <div class="d-none d-md-flex col-md-4 border">
+                <!-- este banner es de medium medioa para arriba -->
+                <div class="d-none d-md-flex col-md-4" style="border: green solid 2px">
                     
                     <a href="/" class="ancor">
                         <img 
@@ -31,12 +33,13 @@
                             class="w-90 banner">
                     </a>
                 </div>
-                <div class="col-md-8 border">
+                <!-- estas son las cards de categorias -->
+                <div class="col-md-8" style="border: blue solid 2px">
                     <div class="row flex-wrap">
                         <div class="col-6 col-md-3" style="border: solid 1px red">
                             <div class="card h-100">
                                 <div class="card-body w-100 categ-card">
-                                  hola
+                                  
                                 </div>
                               </div>
                         </div>
@@ -65,6 +68,7 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
         crossorigin="anonymous">
     </script>
+    
     <footer>
         <%- include('./partials/footer') %>
     </footer>
