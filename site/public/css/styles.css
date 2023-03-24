@@ -8,7 +8,7 @@ ol, ul {
 }
 
 main {
-    height: 100vh;
+    height:;
 }
 /* TEXT */
 
@@ -78,6 +78,7 @@ body {
 
 .banner {
     padding-left: 10%;
+    
 }
 .header-icons {
     font-size: 20px;
@@ -165,12 +166,15 @@ body {
 
 /* CARDS CATEGORIAS */
 
-.categ-card {
-    background-color: #9DD6DF;
+.altura {
+    min-height: fit-content ;
+}
+
+.categ-card {    
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 150px;
+    min-height: fit-content;
 }
 .calzado-card {
     background-image: url("/images/ropa/calzado.jpg");
@@ -201,4 +205,7 @@ body {
 }
 .vestido-card {
     background-image: url("/images/ropa/vestido.jpg");
+}
+.accesorio-card {
+    background-image: url("/images/ropa/accesorios.jpg");
 }
