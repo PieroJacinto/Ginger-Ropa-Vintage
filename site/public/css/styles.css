@@ -76,6 +76,9 @@ body {
     padding-bottom: 3%;
 }
 
+.banner {
+    padding-left: 10%;
+}
 .header-icons {
     font-size: 20px;
 }
@@ -158,4 +161,16 @@ body {
 .ancor {
     color: black !important;
     text-decoration: none !important;
+}
+
+/* CARDS CATEGORIAS */
+
+.categ-card {
+    background-image: url("/images/ropa/calzado.jpg");
+    background-color: #9DD6DF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 150px;
+    
 }
