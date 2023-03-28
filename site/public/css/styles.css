@@ -7,14 +7,15 @@ ol, ul {
     padding-left: 0rem;
 }
 
-main {
-    height:;
-}
-/* TEXT */
 
 body {
-    font-family: 'Playfair Display', serif;    
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 }
+
+/* TEXT */
 
 .txt-ctr {
     text-align: center;
