@@ -174,3 +174,12 @@ main {
 .cat-txt {
     font-size: 1em;
 }
+.cat-name {
+    background-color: white;
+}
+.card-body:hover .cat-name {
+    background-color: #F7E2D6;
+}
+.card-body:hover img {
+    opacity: 0.5;
+}
