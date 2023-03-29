@@ -6,5 +6,9 @@
     .header-txt {
         font-size: small;    
     }
+     /* cat cards  */
+     .cat-txt {
+        font-size: 2vh;
+    }
    
  }

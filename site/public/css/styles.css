@@ -182,40 +182,6 @@ main {
 
 /* CARDS CATEGORIAS */
 
-.altura {
-    min-height: fit-content ;
-}
-
-.calzado-card {
-    background-image: url("/images/ropa/calzado.jpg");
-}
-.camisa-card {
-    background-image: url("/images/ropa/camisa.jpg");
-}
-.falda-card {
-    background-image: url("/images/ropa/falda.jpg");
-}
-.pantalon-card {
-    background-image: url("/images/ropa/pantalon.png");
-}
-.piloto-card {
-    background-image: url("/images/ropa/piloto.jpg");
-}
-.sacos-card {
-    background-image: url("/images/ropa/sacos.jpg");
-}
-.sacos2-card {
-    background-image: url("/images/ropa/sacos2.jpg");
-}
-.short-card {
-    background-image: url("/images/ropa/short.jpg");
-}
-.sweater-card {
-    background-image: url("/images/ropa/sweater.jpg");
-}
-.vestido-card {
-    background-image: url("/images/ropa/vestido.jpg");
-}
-.accesorio-card {
-    background-image: url("/images/ropa/accesorios.jpg");
+.cat-txt {
+    font-size: 1em;
 }

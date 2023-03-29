@@ -6,6 +6,10 @@
     }    
     .header-icons {
         padding-right: 5%;
-    }    
+    } 
+    /* cat cards  */
+    .cat-txt {
+        font-size: 1.3vh;
+    }
 
 }
