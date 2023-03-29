@@ -6,7 +6,10 @@
 ol, ul {
     padding-left: 0rem;
 }
-
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
 
 body {
     font-family: 'Playfair Display', serif;
@@ -175,10 +178,7 @@ main {
 .footer-text {
     font-size: xx-small;
 }
-.ancor {
-    color: black !important;
-    text-decoration: none !important;
-}
+
 
 /* CARDS CATEGORIAS */
 
