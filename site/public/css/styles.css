@@ -77,10 +77,6 @@ body {
     padding-bottom: 3%;
 }
 
-.banner {
-    padding-left: 10%;
-    
-}
 .header-icons {
     font-size: 20px;
 }
@@ -95,7 +91,12 @@ body {
 
 .header-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-icons {
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 .list-group-item {
@@ -106,6 +107,9 @@ body {
     padding-right:5%
 }
 
+.cat-pad {
+    padding-right: 0.5rem;
+}
 /* OFFCANVAS */
 
 .offcanvas {
