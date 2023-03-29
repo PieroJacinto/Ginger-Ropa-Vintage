@@ -112,7 +112,8 @@ main {
     padding-left: 0.5rem;
 }
 .ban-pad {
-    padding-left: 0px;
+    padding-left: 1rem;
+    text-align: start;
 }
 /* OFFCANVAS */
 
@@ -186,4 +187,10 @@ main {
 }
 .card-body:hover img {
     opacity: 0.5;
+}
+
+/* Separadores sections */
+.separ-sect {
+    padding-left: 1.5rem ;
+    padding-right: 1.5rem;
 }
