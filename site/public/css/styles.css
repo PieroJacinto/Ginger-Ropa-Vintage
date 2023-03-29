@@ -177,6 +177,10 @@ main {
 .cat-name {
     background-color: white;
 }
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 0.7rem rgba(0,0,0, .175);
+}
 .card-body:hover .cat-name {
     background-color: #F7E2D6;
 }
