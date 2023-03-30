@@ -1,5 +1,15 @@
 @media (min-width: 992px) {
+    /* MAIN */
+    main {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
     /* HEADER */
+    .header-pad {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
     .logo {
         width: 60%;       
     }

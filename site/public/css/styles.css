@@ -211,11 +211,14 @@ main {
     margin-right: 15px;
     padding-bottom: 7.5px;
     font-size: 100%;
-    font-weight: 400;       
+    font-weight: 500;       
 }
 .section-title-center span {
     text-align: center;
-    margin: 0 15px    
+    margin: 0 15px;
+    font-size: 100%;
+    font-weight: 500;
+          
 }
 .section-title-center b {
     background-color: currentColor;
