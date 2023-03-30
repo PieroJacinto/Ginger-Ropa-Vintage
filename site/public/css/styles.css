@@ -198,8 +198,8 @@ main {
     border-bottom: 2px solid #ececec;
 }
 .section-title {
-    align-items: center;
     display: flex;
+    align-items: center;
     flex-flow: row wrap;
     justify-content: start;
     position: relative;
