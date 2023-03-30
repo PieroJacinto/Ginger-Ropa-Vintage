@@ -213,3 +213,14 @@ main {
     font-size: 100%;
     font-weight: 400;       
 }
+.section-title-center span {
+    text-align: center;
+    margin: 0 15px    
+}
+.section-title-center b {
+    background-color: currentColor;
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+}
