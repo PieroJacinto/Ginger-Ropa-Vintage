@@ -64,6 +64,11 @@ main {
     width:100%;
     object-fit: contain;
 }
+.ratio-square-recomendaciones {
+    aspect-ratio: 3.5/4;
+    width:100%;
+    object-fit: contain;
+}
 /* HEADER */
 
 .header-mobile { 
