@@ -11,7 +11,7 @@
             <div class="galery "> 
                 <% for (const feed of instaData) { %>
                 <div class="image overflow ">
-                    <img loading="lazy" src="<%= feed.media_url %>" alt="" class="">
+                    <img loading="lazy" src="<%=  feed.thumbnail_url ?  feed.thumbnail_url : feed.media_url %>" alt="" class="">
                     <div class="opacity-hover">
                         <a href="<%= feed.permalink %>" class="caption">
                             <p>
