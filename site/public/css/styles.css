@@ -279,7 +279,7 @@ main {
 .chevron #next{
     padding-right: .5rem;
     justify-content: flex-start;
-    left: -1.7rem;
+    right: -1.7rem;
 }
 
 .galery{
