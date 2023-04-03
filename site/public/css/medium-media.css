@@ -11,4 +11,10 @@
     .cat-txt {
         font-size: 1.3vh;
     }
+    /* Intagram gallery */
+    .image{
+        min-width: 33.3%;  
+        position: relative;
+        aspect-ratio: 3/4;
+    }
 }

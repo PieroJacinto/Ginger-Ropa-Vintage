@@ -1,0 +1,33 @@
+<div id="feed-contenedor">
+    <div class="main-galery">
+        <!-- left -->
+        <div class="chevron">
+            <span id="prev" >
+                <i class="fa-solid fa-chevron-left"></i>
+            </span>
+        </div>
+        <!-- galery -->
+        <div class="contenedor-galery">
+            <div class="galery "> 
+                <% for (const feed of instaData) { %>
+                <div class="image overflow ">
+                    <img loading="lazy" src="<%= feed.media_url %>" alt="" class="">
+                    <div class="opacity-hover">
+                        <a href="<%= feed.permalink %>" class="caption">
+                            <p>
+                                <%= feed.caption.slice(0,100) %>
+                            </p>
+                        </a>
+                    </div>
+                </div>   
+                <% } %>           
+            </div>
+        </div>
+        <!-- right -->
+        <div class="chevron">
+            <span id="next">
+                <i class="fa-solid fa-chevron-right"></i>
+            </span>
+        </div>
+    </div>
+</div>

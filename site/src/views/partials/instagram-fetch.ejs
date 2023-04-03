@@ -1,13 +1,13 @@
 
 
-<div id="carouselExample" class="carousel slide">
+<!-- <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
      <% for (let index = 0; index < instaData.length; index++) { %> 
+      <div class="<%=  index === 0 ? "carousel-item active": "carousel-item" %>">
         <a href="<%= instaData[index].permalink %>">
-            <div class="<%=  index === 0 ? "carousel-item active": "carousel-item" %>">
                 <img src="<%= instaData[index].media_url %>" class="d-block w-100" alt="...">
+              </a>
             </div>
-        </a>
      <% } %>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -18,4 +18,31 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+  </div>-->
+
+  <div class="container-fluid text-center my-3">    
+    <div class="row mx-auto my-auto justify-content-center">
+        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class=" carousel-inner" role="listbox">
+            <% for (let index = 0; index < instaData.length; index++) { %> 
+                <div class="<%=  index === 0 ? "carousel-item active": "carousel-item" %>">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="<%= instaData[index].media_url %>" class="img-fluid">
+                            </div>
+                          <div class="card-img-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            <% } %>             
+        </div>
+            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>    
+</div>
