@@ -13,7 +13,7 @@
                 <div class="image overflow">
                     <img loading="lazy" src="<%= feed.thumbnail_url ?  feed.thumbnail_url : feed.media_url %>" alt="" class="">
                     <div class="opacity-hover">
-                        <a href="<%= feed.permalink %>" class="caption">
+                        <a href="<%= feed.permalink %>" class="caption" target="_blank" rel="noopener noreferrer">
                             <p>
                                 <%= feed.caption.slice(0,100) %>
                             </p>
