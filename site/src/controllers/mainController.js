@@ -11,4 +11,7 @@ module.exports = {
        const instaData = instaJson.data       
        res.render("home", { instaData });
    },
+   productDetail: async (req, res) => {
+    res.render("productDetail")
+   }
 };

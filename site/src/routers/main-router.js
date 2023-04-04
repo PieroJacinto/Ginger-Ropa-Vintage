@@ -7,3 +7,4 @@ const mainController = require("../controllers/mainController");
 
 
 router.get("/", mainController.home);
+router.get("/detail", mainController.productDetail);
