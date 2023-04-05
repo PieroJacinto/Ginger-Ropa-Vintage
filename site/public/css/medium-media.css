@@ -17,4 +17,8 @@
         position: relative;
         aspect-ratio: 3/4;
     }
+    /* product carousel */
+    .prod-carousel-pad{
+        padding-left: 6%;
+    }
 }

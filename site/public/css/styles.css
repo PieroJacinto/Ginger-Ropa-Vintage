@@ -341,4 +341,16 @@ main {
     scroll-behavior: smooth;
 }
 
+.prod-det {
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
+/* carousel */
+
+. d-lg-block {
+    display: block!important;
+}
+
+
 
