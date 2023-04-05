@@ -360,3 +360,13 @@ main {
     --swiffy-slider-item-count: 4 !important;
 }
 
+.cart-buttom {
+    background: #9DD6DF;
+    border-radius: 5px;
+    padding: 0.7rem 3rem;
+    color:white
+}
+.redes-icon {
+    font-size: 2.5rem;
+}
+
