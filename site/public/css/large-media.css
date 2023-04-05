@@ -26,5 +26,9 @@
         position: relative;
         aspect-ratio: 3/4;
     }
+    /* DETALLE DE PRODUCTO */
+    .max-w-detail{
+        max-width: 40rem;
+    }
    
  }

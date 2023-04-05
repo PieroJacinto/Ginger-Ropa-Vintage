@@ -356,10 +356,6 @@ main {
     object-fit: contain !important;
 }
 
-.max-w-detail{
-    max-width: 40rem;
-}
-
 .slider-item-show4 {
     --swiffy-slider-item-count: 4 !important;
 }
