@@ -191,7 +191,7 @@ main {
 .card-body:hover .cat-name {
     background-color: #F7E2D6;
 }
-.card-body:hover img {
+.opacity:hover img {
     opacity: 0.5;
 }
 
@@ -372,3 +372,6 @@ main {
 
 /* Recomendaciones */
 
+.ratio-square-recomendaciones:hover{       
+   padding: 0px !important;    
+}
