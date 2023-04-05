@@ -240,7 +240,7 @@ main {
 }
 #feed-contenedor {
     background-color: rgb(189,189,189);
-    margin: 5rem 0;
+    margin: 3rem 0;
     width: 100%;
     overflow: hidden;
 }
@@ -350,6 +350,11 @@ main {
 
 .d-lg-block {
     display: block!important;
+}
+
+.insta-icon {
+    width: 2.5rem;
+    margin-right: 1rem;
 }
 
 .slider-item-ratio .slider-container>*>* {   
