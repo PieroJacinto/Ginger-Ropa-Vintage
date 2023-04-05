@@ -346,11 +346,21 @@ main {
     aspect-ratio: 4/3;
 }
 
-/* carousel */
+/* carousel product detail*/
 
-. d-lg-block {
+.d-lg-block {
     display: block!important;
 }
 
+.slider-item-ratio .slider-container>*>* {   
+    object-fit: contain !important;
+}
 
+.max-w-detail{
+    max-width: 40rem;
+}
+
+.slider-item-show4 {
+    --swiffy-slider-item-count: 4 !important;
+}
 
