@@ -346,6 +346,19 @@ main {
     aspect-ratio: 4/3;
 }
 
+.insta-button {
+    background: #F7E2D6;
+    border-radius: 5px;
+    padding: 0.7rem 3rem;
+    border: none;
+    
+}
+
+.hr-line {
+    border: solid .3rem #9DD6DF;
+    opacity: 1;
+}
+
 /* carousel product detail*/
 
 .d-lg-block {
@@ -365,11 +378,12 @@ main {
     --swiffy-slider-item-count: 4 !important;
 }
 
-.cart-buttom {
+.cart-button {
     background: #9DD6DF;
     border-radius: 5px;
     padding: 0.7rem 3rem;
-    color:white
+    color:white;
+    border: none
 }
 .redes-icon {
     font-size: 2.5rem;
