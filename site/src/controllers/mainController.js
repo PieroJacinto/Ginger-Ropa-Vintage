@@ -13,5 +13,8 @@ module.exports = {
    },
    productDetail: async (req, res) => {
     res.render("productDetail")
+   },
+   categoryList: async (req,res) => {
+    res.render("categoryList")
    }
 };
