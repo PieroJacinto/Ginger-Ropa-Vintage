@@ -16,5 +16,8 @@ module.exports = {
    },
    categoryList: async (req,res) => {
     res.render("categoryList")
+   },
+   newProduct: async (req, res) => {
+    res.render("newProductForm")
    }
 };

@@ -9,3 +9,4 @@ const mainController = require("../controllers/mainController");
 router.get("/", mainController.home);
 router.get("/detail", mainController.productDetail);
 router.get("/category", mainController.categoryList);
+router.get("/newProduct", mainController.newProduct)
