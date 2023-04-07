@@ -4,6 +4,7 @@ const createApp = require("./config/create-app");
 const appConfig = require("./config/app-config");
 const { join } = require("path");
 const { static } = require("express");
+const methodOverride = require("method-override");
 
 
 // CREATE EXPRESS APP
@@ -17,6 +18,7 @@ app.use(static(join(__dirname, "..", "public")));
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+app.use(methodOverride("_method"));
 
 
 

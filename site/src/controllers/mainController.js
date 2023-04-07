@@ -19,5 +19,8 @@ module.exports = {
    },
    newProduct: async (req, res) => {
     res.render("newProductForm")
+   },
+   chargeProduct: async (req, res) => {
+    
    }
 };
