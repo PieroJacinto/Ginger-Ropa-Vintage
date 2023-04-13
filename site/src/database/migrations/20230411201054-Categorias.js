@@ -16,7 +16,7 @@ module.exports = {
       categoriaImagen: {
         type: DataTypes.STRING(500),
         allownull: false,
-      }
+      },
     })
   },
 

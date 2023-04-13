@@ -24,4 +24,8 @@ module.exports = function(sequelize, dataTypes){
 		tableName: "usuario_admin",
 		timestamps: true
 	}
+
+    const UsuarioAdmin = sequelize.define(alias, cols, config);
+
+    return UsuarioAdmin
 }

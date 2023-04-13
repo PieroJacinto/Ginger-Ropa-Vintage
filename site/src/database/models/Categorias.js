@@ -28,5 +28,6 @@ module.exports = function(sequelize, dataTypes){
             foreignKey: "categoriaID"
         });
     }
-	return Categorias;
+
+    return Categorias;
 }

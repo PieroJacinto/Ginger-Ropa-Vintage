@@ -16,7 +16,7 @@
             <form class="form-control p-5" action="/newProduct" method="POST" enctype="multipart/form-data" id="formulario">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Titulo del producto</label>
-                    <input name="titulo" type="email" class="form-control" id="titulo" placeholder="Titulo del producto">
+                    <input name="titulo" type="text" class="form-control" id="titulo" placeholder="Titulo del producto">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Precio</label>
@@ -27,10 +27,13 @@
                     <textarea name="descripcion" class="form-control" id="descripcion" rows="3"></textarea>
                 </div>
                 <select name="categoria" id="categoria" class="form-select" aria-label="Default select example">
-                    <option selected>Categoria</option>
-                    <option value="1">One</option>
-                    <option value="1">One</option>
-                    <option value="1">One</option>
+                    <option selected>Selecciona la categoria</option>
+                    <% if (categorias != undefined) { %> 
+                        <% categorias.forEach(categoria => { %>  
+                          <option value="<%= categoria.id %>"><%= categoria.nombreCategoria %></option>
+                        <% }) %> 
+                    <% } %> 
+
                 </select>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label mt-3">Medidas del producto</label>

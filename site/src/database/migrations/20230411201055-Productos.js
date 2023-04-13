@@ -35,6 +35,14 @@ module.exports = {
           type: DataTypes.STRING(1000),
           allowNull: false,
       },
+      created_at: {
+        allowNull: false,
+        type: DataTypes.DATE,
+      },
+      updated_at: {
+        allowNull: false,
+        type: DataTypes.DATE,
+      }
     })
   },
 
